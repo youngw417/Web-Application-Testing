@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react'
 
 function Dashboard({checkTodisplay}) {
 
-    const[bat, setBat] = useState('')
+    const[bat, setBat] = useState('🥎')
     const batting = () => {
         const action = Math.floor(Math.random()*4)
         switch (action) {
